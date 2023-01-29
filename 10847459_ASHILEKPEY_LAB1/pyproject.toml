@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "10847459-ashilekpey-lab1"
+version = "0.1.0"
+description = ""
+authors = ["Ashilekpey Edward Sena <ashilekpeyedwardsena@gmail.com>"]
+readme = "README.md"
+packages = [{include = "10847459_ashilekpey_lab1"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
